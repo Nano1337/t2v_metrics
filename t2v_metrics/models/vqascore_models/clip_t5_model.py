@@ -7,7 +7,7 @@ from ...constants import HF_CACHE_DIR, CONTEXT_LEN, SYSTEM_MSG, DEFAULT_IMAGE_TO
 from .clip_t5.model import CLIPT5ForConditionalGeneration, ModelArguments
 
 default_question_template = 'Does this figure show "{}"? Please answer yes or no.'
-default_answer_template = "Yes"
+default_answer_template = "Yes" # for disagreement, use "No"
 
 def format_question(question, conversation_style='plain'):
     if conversation_style == 't5_plain': # for 1st stage t5 model

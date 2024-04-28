@@ -12,7 +12,7 @@ def config():
                         help='Root directory for saving datasets.')
     parser.add_argument("--cache_dir", default=t2v_metrics.constants.HF_CACHE_DIR, type=str) 
     parser.add_argument("--device", default="cuda", type=str)
-    parser.add_argument("--batch_size", default=16, type=int)
+    parser.add_argument("--batch_size", default=2, type=int)
     parser.add_argument("--model", default="clip-flant5-xxl", type=str)
     parser.add_argument("--question", default=None, type=str)
     parser.add_argument("--answer", default=None, type=str)
@@ -37,13 +37,13 @@ def main():
     print(f"Performance of {args.model}.")
     for dataset_cls in [
         Winoground,
-        EqBen_Mini,
-        TIFA160_DSG,
-        Pickapic_v1,
-        SeeTrue,
-        StanfordT23D,
-        T2VScore,
-        Flickr8K_CF,
+        # EqBen_Mini,
+        # TIFA160_DSG,
+        # Pickapic_v1,
+        # SeeTrue,
+        # StanfordT23D,
+        # T2VScore,
+        # Flickr8K_CF,
     ]:
         
         dataset = dataset_cls(root_dir=args.root_dir)
