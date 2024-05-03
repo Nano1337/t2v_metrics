@@ -1,0 +1,7900 @@
+{
+    "00001": {
+        "id": "00001",
+        "text": "A baker pulling freshly baked bread out of an oven in a bakery.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00002": {
+        "id": "00002",
+        "text": "A photographer capturing a fleeting moment in a vibrant city street.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00003": {
+        "id": "00003",
+        "text": "A gardener tending to flowers in a greenhouse filled with sunlight.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00004": {
+        "id": "00004",
+        "text": "A man shaping clay on a wheel in a cluttered workshop.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00005": {
+        "id": "00005",
+        "text": "A crystal tree shimmering under a twilit, starry sky.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            2,
+            3
+        ]
+    },
+    "00006": {
+        "id": "00006",
+        "text": "A dragon perched majestically on a craggy, smoke-wreathed mountain.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3
+        ],
+        "neg": [
+            2,
+            4,
+            5
+        ]
+    },
+    "00007": {
+        "id": "00007",
+        "text": "A fairy dancing lightly atop a blooming, moonlit flower.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00008": {
+        "id": "00008",
+        "text": "A phoenix soaring above a city, aglow with golden flames.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00009": {
+        "id": "00009",
+        "text": "A ghostly ship sailing on a fog-shrouded, moonlit sea.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00010": {
+        "id": "00010",
+        "text": "A sorcerer's hat casting shadows over a cluttered, enchanted desk.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00011": {
+        "id": "00011",
+        "text": "A pair of winged boots resting on a cloud in the sky.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00013": {
+        "id": "00013",
+        "text": "An ice castle standing proudly in the midst of a blizzard.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00014": {
+        "id": "00014",
+        "text": "A potion bubbling brightly inside a cauldron in a shadowy nook.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00016": {
+        "id": "00016",
+        "text": "A celestial comet racing across a star-studded, velvet sky.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00017": {
+        "id": "00017",
+        "text": "A mermaid singing softly near a coral throne undersea.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00018": {
+        "id": "00018",
+        "text": "A goblin trading shiny trinkets in a hidden, mystical market.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00019": {
+        "id": "00019",
+        "text": "A unicorn grazing peacefully in a radiant, rainbow-lit glade.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00020": {
+        "id": "00020",
+        "text": "A magical quill writing tales by itself on an empty scroll.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00021": {
+        "id": "00021",
+        "text": "A lantern casting spectral light in a haunted, whispering forest.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            3
+        ]
+    },
+    "00022": {
+        "id": "00022",
+        "text": "A cloak of invisibility draped over a chair in a secretive chamber.",
+        "skills": [
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00023": {
+        "id": "00023",
+        "text": "A genie's lamp emitting wisps of smoke on a sandy dune.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00024": {
+        "id": "00024",
+        "text": "An enchanted broom sweeping in a wizard's lofty chamber.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00025": {
+        "id": "00025",
+        "text": "A cat pounces on a rolling ball.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00026": {
+        "id": "00026",
+        "text": "A young man tastes a simmering soup.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00027": {
+        "id": "00027",
+        "text": "A girl dabs paint on a mural.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00028": {
+        "id": "00028",
+        "text": "A dancer twirls in a spotlight.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00029": {
+        "id": "00029",
+        "text": "A boy leaps over a hurdle.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00030": {
+        "id": "00030",
+        "text": "An old person snips a blooming rose.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00031": {
+        "id": "00031",
+        "text": "A man kneads dough on a table.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00032": {
+        "id": "00032",
+        "text": "A person types on an old typewriter.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00033": {
+        "id": "00033",
+        "text": "A dog tunes a violin.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00034": {
+        "id": "00034",
+        "text": "A woman examines a diamond.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00035": {
+        "id": "00035",
+        "text": "A small cat waves a wand.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00036": {
+        "id": "00036",
+        "text": "A boy spots a colorful bird.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00037": {
+        "id": "00037",
+        "text": "A sailor hoists a sail.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00038": {
+        "id": "00038",
+        "text": "A bird nocks an arrow.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00039": {
+        "id": "00039",
+        "text": "A cat basking in the sunlight by a window.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3
+        ],
+        "neg": [
+            2,
+            4,
+            5
+        ]
+    },
+    "00040": {
+        "id": "00040",
+        "text": "A red bicycle parked against a brightly painted wall.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00041": {
+        "id": "00041",
+        "text": "A teapot steaming gently on a rustic kitchen table.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00042": {
+        "id": "00042",
+        "text": "Old boots resting on a muddy trail in the woods.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            4
+        ]
+    },
+    "00043": {
+        "id": "00043",
+        "text": "A yellow taxi waiting outside a modern glass building.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00044": {
+        "id": "00044",
+        "text": "An armchair with a knit blanket draped over it, next to a fireplace.",
+        "skills": [
+            "spatial relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00045": {
+        "id": "00045",
+        "text": "A colorful mural of a bird adorning a city alley.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00047": {
+        "id": "00047",
+        "text": "A garden path lined with glowing stones under a twilight sky.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00048": {
+        "id": "00048",
+        "text": "A grand fountain surrounded by historic buildings in a town square.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            5
+        ]
+    },
+    "00049": {
+        "id": "00049",
+        "text": "A cavern lit by shafts of light revealing hidden underground pools.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00050": {
+        "id": "00050",
+        "text": "Boats laden with fruits floating on a river under a dual sunset.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00051": {
+        "id": "00051",
+        "text": "Shelves carved from tree branches in a mystical library.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00052": {
+        "id": "00052",
+        "text": "Ancient buildings juxtaposed with sleek, futuristic transports.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00053": {
+        "id": "00053",
+        "text": "A village covered in snow, illuminated by the northern lights.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00054": {
+        "id": "00054",
+        "text": "An oasis mirage with an ice palace reflecting moonlight in the desert.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00055": {
+        "id": "00055",
+        "text": "An asteroid spaceport bustling with aliens and spacecraft.",
+        "skills": [
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            2,
+            5
+        ]
+    },
+    "00056": {
+        "id": "00056",
+        "text": "A small dog dozing in a patch of sunlight.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00057": {
+        "id": "00057",
+        "text": "A single rose growing through a crack.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00058": {
+        "id": "00058",
+        "text": "A quaint bookshop.",
+        "skills": [
+            "attribute"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00059": {
+        "id": "00059",
+        "text": "A lone lighthouse standing guard on a rocky coastline.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2
+        ]
+    },
+    "00060": {
+        "id": "00060",
+        "text": "A butterfly perched on a wildflower in a meadow.",
+        "skills": [
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00061": {
+        "id": "00061",
+        "text": "A pilot with aviator sunglasses.",
+        "skills": [
+            "part relation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00062": {
+        "id": "00062",
+        "text": "A baker with a cherry pin on a polka dot apron.",
+        "skills": [
+            "part relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00063": {
+        "id": "00063",
+        "text": "A knight with a feather plume helmet by a stone tower.",
+        "skills": [
+            "spatial relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1
+        ],
+        "neg": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00064": {
+        "id": "00064",
+        "text": "A scientist with a gear-shaped ring in a steampunk lab.",
+        "skills": [
+            "attribute",
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00065": {
+        "id": "00065",
+        "text": "A swan with a silver anklet on a crystal lake.",
+        "skills": [
+            "attribute",
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00066": {
+        "id": "00066",
+        "text": "A ninja with a dragon emblem in a bamboo grove.",
+        "skills": [
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00067": {
+        "id": "00067",
+        "text": "A pirate with a skull earring on a treasure island.",
+        "skills": [
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00068": {
+        "id": "00068",
+        "text": "A wizard with a starry cape under a full moon.",
+        "skills": [
+            "spatial relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00069": {
+        "id": "00069",
+        "text": "A fairy with butterfly wings in a dewy meadow.",
+        "skills": [
+            "attribute",
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            3,
+            4
+        ]
+    },
+    "00070": {
+        "id": "00070",
+        "text": "A cheerleader with a star badge at a sports field.",
+        "skills": [
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00071": {
+        "id": "00071",
+        "text": "A samurai with a silk sash in a cherry blossom garden.",
+        "skills": [
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00072": {
+        "id": "00072",
+        "text": "An astronaut with a flag patch drifting in space.",
+        "skills": [
+            "attribute",
+            "scene",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00073": {
+        "id": "00073",
+        "text": "A playful kitten with a bell collar on the left, batting at a fluttering butterfly on the right.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00075": {
+        "id": "00075",
+        "text": "An eagle with a silver band on its leg on the right, soaring past a towering pine tree on the left.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00076": {
+        "id": "00076",
+        "text": "A golden retriever sitting to the left of a blue picket fence.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00077": {
+        "id": "00077",
+        "text": "A small pond with a single swan gliding towards the left.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00078": {
+        "id": "00078",
+        "text": "A white sailboat drifting towards the left on a calm lake.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00079": {
+        "id": "00079",
+        "text": "A single red rose in a vase on the right side of a windowsill.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00080": {
+        "id": "00080",
+        "text": "A blue mailbox standing to the left of a winding garden path.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            2,
+            5
+        ]
+    },
+    "00081": {
+        "id": "00081",
+        "text": "A snowy owl perched to the right on a frost-covered branch.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            3
+        ]
+    },
+    "00082": {
+        "id": "00082",
+        "text": "A vintage clock on a mantelpiece leaning slightly to the left.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00083": {
+        "id": "00083",
+        "text": "A cat sitting to the left of a bookshelf.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            4
+        ]
+    },
+    "00084": {
+        "id": "00084",
+        "text": "A crystal-clear lake reflecting a mountainous landscape.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            3
+        ]
+    },
+    "00086": {
+        "id": "00086",
+        "text": "An ancient scroll unrolled on a wooden desk.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00087": {
+        "id": "00087",
+        "text": "A hammock strung between two palm trees on a beach.",
+        "skills": [
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00088": {
+        "id": "00088",
+        "text": "A narrow alleyway illuminated by strings of fairy lights.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            3
+        ]
+    },
+    "00089": {
+        "id": "00089",
+        "text": "A star-filled sky over a desert campsite.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            2,
+            5
+        ]
+    },
+    "00090": {
+        "id": "00090",
+        "text": "A red bicycle against a blue wall.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            2,
+            5
+        ]
+    },
+    "00092": {
+        "id": "00092",
+        "text": "A bright yellow taxi parked in front, a tall glass building rising behind it amidst clouds.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00094": {
+        "id": "00094",
+        "text": "A whimsical garden features glowing flowers, luminescent stones lining the pathway beneath.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00095": {
+        "id": "00095",
+        "text": "A cat lounging lazily on a sunny windowsill.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00096": {
+        "id": "00096",
+        "text": "A painter delicately brushing color onto a canvas in a bright, airy studio.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00097": {
+        "id": "00097",
+        "text": "A chef fervently preparing sushi in a bustling kitchen.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00098": {
+        "id": "00098",
+        "text": "A vintage car cruising down a coastal road at sunset.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00099": {
+        "id": "00099",
+        "text": "A group of children playing hide-and-seek in a blooming garden.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00100": {
+        "id": "00100",
+        "text": "A librarian shelving books in a quiet, expansive library.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00101": {
+        "id": "00101",
+        "text": "An astronaut floating gracefully in the vastness of space outside a spacecraft.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2
+        ],
+        "neg": [
+            3,
+            4,
+            5
+        ]
+    },
+    "00102": {
+        "id": "00102",
+        "text": "A little girl tuning a guitar before a concert in a dimly lit venue.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00103": {
+        "id": "00103",
+        "text": "A pencil holder with more pens than pencils.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00105": {
+        "id": "00105",
+        "text": "A couple where the taller one hugs the shorter from behind.",
+        "skills": [
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00106": {
+        "id": "00106",
+        "text": "The sky teems with more birds than the number of fish visible in the lake below.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00107": {
+        "id": "00107",
+        "text": "On the party table, chocolate chip cookies outnumber the frosted cupcakes.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00108": {
+        "id": "00108",
+        "text": "A table setting with fewer forks than bowls.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00109": {
+        "id": "00109",
+        "text": "In a gym, there are two people, the one closer to the table is resting and the one further away from the table is lifting weights.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00110": {
+        "id": "00110",
+        "text": "A larger person in yellow clothing and a smaller person in a different color.",
+        "skills": [
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00111": {
+        "id": "00111",
+        "text": "An animal with legs notably longer than a nearby person's.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00112": {
+        "id": "00112",
+        "text": "A forest landscape with more birds in the sky than trees on the ground.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00113": {
+        "id": "00113",
+        "text": "A workspace with more computers than computer mice.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00114": {
+        "id": "00114",
+        "text": "An interior space with stools outnumbering the people.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            3
+        ]
+    },
+    "00115": {
+        "id": "00115",
+        "text": "A scene where there are more hats than stools.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            3,
+            4
+        ]
+    },
+    "00116": {
+        "id": "00116",
+        "text": "A kitchen with a larger quantity of milk than juice.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1
+        ],
+        "neg": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00117": {
+        "id": "00117",
+        "text": "In a peaceful pond, there are more fish in the water than frogs on the lotus leaves.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00119": {
+        "id": "00119",
+        "text": "The sun illuminates the garden, a shovel sticks in the soil, and gloves lay on the bench.",
+        "skills": [
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00121": {
+        "id": "00121",
+        "text": "A map unfolds widely on the wall and a compass points northward.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            4
+        ],
+        "neg": [
+            1,
+            3,
+            5
+        ]
+    },
+    "00122": {
+        "id": "00122",
+        "text": "Children are swinging on the swings while their parents watch from nearby, and a puppy frolics around them.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00123": {
+        "id": "00123",
+        "text": "Three flowers on the ground: one red, another yellow, and the third blue.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    "00125": {
+        "id": "00125",
+        "text": "A strange landscape, the ground on the left is covered with snow but the ground on the right is covered with green grass.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00126": {
+        "id": "00126",
+        "text": "A boat glides across the ocean, dolphins leaping beside it and seagulls soaring overhead.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00127": {
+        "id": "00127",
+        "text": "A painting hangs on the wall, a vase rests on the table, and sunlight streams through the window.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00128": {
+        "id": "00128",
+        "text": "A hat is perched on the table and a coat is draped on the chair.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00130": {
+        "id": "00130",
+        "text": "In one bedroom the pillows were plump and the blankets neatly folded.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            3,
+            4
+        ]
+    },
+    "00131": {
+        "id": "00131",
+        "text": "A guitar rests against a chair and a drum set stands nearby.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00132": {
+        "id": "00132",
+        "text": "In a snowy landscape, a fox dashes across the terrain, while nearby, a dog sits calmly.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00134": {
+        "id": "00134",
+        "text": "Two lampshades flank a bed: the one on the left is tilted, while the one on the right stands straight.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00135": {
+        "id": "00135",
+        "text": "A window consists of two panes of glass, the left one is broken but the right one is intact.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00138": {
+        "id": "00138",
+        "text": "At the center of the table,  four gleaming silver forks encircle a solitary porcelain plate.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            1,
+            3
+        ],
+        "neg": [
+            2,
+            4,
+            5
+        ]
+    },
+    "00139": {
+        "id": "00139",
+        "text": "Two cats playing with a single ball.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00141": {
+        "id": "00141",
+        "text": "Four flowers blooming, two beside a bench.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00143": {
+        "id": "00143",
+        "text": "One orange kite and four white seagulls flying above the beach.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00144": {
+        "id": "00144",
+        "text": "Five enthusiastic athletes and one tired coach.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00145": {
+        "id": "00145",
+        "text": "Two orange pumpkins and four flying black bats.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            5
+        ]
+    },
+    "00146": {
+        "id": "00146",
+        "text": "One sun setting behind two tall buildings.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00147": {
+        "id": "00147",
+        "text": "Two orange pumpkins behind a group of five spooky Halloween candles.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00148": {
+        "id": "00148",
+        "text": "One content rabbit and six tired turtles.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00151": {
+        "id": "00151",
+        "text": "Two red balloons and three white clouds floating in the blue sky.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00152": {
+        "id": "00152",
+        "text": "Two grey wolves howling and three deer watching.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00154": {
+        "id": "00154",
+        "text": "Four nervous mice and one confident cat.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00155": {
+        "id": "00155",
+        "text": "Three books are stacked on top of each other, with the red one at the bottom, the yellow one in the middle, and the blue one on top.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00156": {
+        "id": "00156",
+        "text": "One bird singing, two flowers swaying.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00158": {
+        "id": "00158",
+        "text": "One ecstatic painter in front of four confused muses.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00159": {
+        "id": "00159",
+        "text": "One person talks on the phone animatedly while the other sits sadly.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            2,
+            5
+        ]
+    },
+    "00160": {
+        "id": "00160",
+        "text": "An excited cat is on the left and an upset cat is on the right",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1
+        ],
+        "neg": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00161": {
+        "id": "00161",
+        "text": "A scene with two blue balls amidst many yellow ones.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00162": {
+        "id": "00162",
+        "text": "Cats playing on the roof, the cat on the left has curly hair, the cat on the right has straight hair",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00163": {
+        "id": "00163",
+        "text": "A lone green banana stands out among a cluster of red bananas.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00164": {
+        "id": "00164",
+        "text": "A circular mirror is above a rectangular one.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00165": {
+        "id": "00165",
+        "text": "Some oranges on the left are moldy while an orange on the right is fresh.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00166": {
+        "id": "00166",
+        "text": "On display, a long, white dress contrasts sharply with a short, dark dress beside it.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00168": {
+        "id": "00168",
+        "text": "An old owl watches as a young owl tries its first flight.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00169": {
+        "id": "00169",
+        "text": "The girl with glasses is drawing, and the girl without glasses is singing.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00170": {
+        "id": "00170",
+        "text": "The dog with a leash sits quietly, the other without a leash runs wildly.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00171": {
+        "id": "00171",
+        "text": "The smiling child gives an apple to the frowning child.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00172": {
+        "id": "00172",
+        "text": "The brown dog chases the black dog around the tree.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            3
+        ],
+        "neg": [
+            2,
+            4,
+            5
+        ]
+    },
+    "00173": {
+        "id": "00173",
+        "text": "In the supermarket, a man with glasses pays a man without glasses.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00174": {
+        "id": "00174",
+        "text": "There are three men, the one in the center is jumping, the others are standing.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00175": {
+        "id": "00175",
+        "text": "A happy woman is on the right of a sad woman.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00177": {
+        "id": "00177",
+        "text": "An injured man sitting on the ground with a man to his right who is helping him.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            4
+        ],
+        "neg": [
+            1,
+            3,
+            5
+        ]
+    },
+    "00179": {
+        "id": "00179",
+        "text": "Two people are running, the person with red legs is running quite slowly and the yellow legged one runs faster.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00180": {
+        "id": "00180",
+        "text": "Adjacent houses stand side by side; the left one sports a chimney, while the right one has none.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00181": {
+        "id": "00181",
+        "text": "A bird chirping melodiously on the right, with another listening intently on the left.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00182": {
+        "id": "00182",
+        "text": "A single snowflake falls gracefully among others swirling chaotically in the wind.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            3,
+            4
+        ]
+    },
+    "00183": {
+        "id": "00183",
+        "text": "An old artist holding a paintbrush faces a young artist wielding a pencil.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00184": {
+        "id": "00184",
+        "text": "Among a group of pastel-colored balloons, one stands out in vibrant red.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00185": {
+        "id": "00185",
+        "text": "A runner in blue shoes speeds past another in red shoes.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3
+        ]
+    },
+    "00187": {
+        "id": "00187",
+        "text": "A smiling girl with short hair and no glasses.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            3
+        ]
+    },
+    "00189": {
+        "id": "00189",
+        "text": "A bird with no feathers on its head, perched alone.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            3
+        ]
+    },
+    "00190": {
+        "id": "00190",
+        "text": "A car, not red, without its front wheels, parked.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00191": {
+        "id": "00191",
+        "text": "A yellow bird sings, a cat does not sing.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00192": {
+        "id": "00192",
+        "text": "A pair of glasses, but no lenses.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            5
+        ]
+    },
+    "00193": {
+        "id": "00193",
+        "text": "A colorful skirt has an uncolorful hem.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00194": {
+        "id": "00194",
+        "text": "A plate with no food, only a fork and a knife.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00196": {
+        "id": "00196",
+        "text": "A person without a hat pays a person with a hat.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00198": {
+        "id": "00198",
+        "text": "six people wear white shirts and no people wear red shirts.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00200": {
+        "id": "00200",
+        "text": "Four elephants, no giraffes.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00201": {
+        "id": "00201",
+        "text": "two people; the one on the right has long hair and the one on the left doesn't.",
+        "skills": [
+            "counting",
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00205": {
+        "id": "00205",
+        "text": "In a race between a tortoise and a hare, the tortoise takes a nap, but the hare does not.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00206": {
+        "id": "00206",
+        "text": "There are some apples on the table, no oranges.",
+        "skills": [
+            "comparison",
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00208": {
+        "id": "00208",
+        "text": "A garden with flowers, but no bees to be seen.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00210": {
+        "id": "00210",
+        "text": "A car drives down the road without wheels, floating above the ground.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00211": {
+        "id": "00211",
+        "text": "The tallest tree in the forest has no leaves, while the smallest one is lush and green.",
+        "skills": [
+            "comparison",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00212": {
+        "id": "00212",
+        "text": "A car moves forward but a bicycle doesn't.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00214": {
+        "id": "00214",
+        "text": "A snowman with a hat,  no scarf around its neck.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00215": {
+        "id": "00215",
+        "text": "A mountain with no snow, under a bright sky.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            3,
+            4
+        ]
+    },
+    "00216": {
+        "id": "00216",
+        "text": "A cat sleeps peacefully in a dog's bed, while the dog has no choice but to nap on the floor.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00217": {
+        "id": "00217",
+        "text": "A beach with no people, no shells.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            3
+        ]
+    },
+    "00218": {
+        "id": "00218",
+        "text": "A tree with no leaves, standing in a field of green.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00219": {
+        "id": "00219",
+        "text": "A modern home office setup, a computer monitor on the desk showing a digital calendar with 'Meeting at 3 PM' highlighted.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00220": {
+        "id": "00220",
+        "text": "A busy urban intersection, a traffic sign at the roadside displaying 'Speed Limit 30 mph'.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00221": {
+        "id": "00221",
+        "text": "A typewriter on a wooden desk, paper rolled in displaying the words 'Chapter 1' in classic font.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00222": {
+        "id": "00222",
+        "text": "A rustic bakery storefront, the window adorned with a 'Fresh Breads Daily' sign, loaves visible behind the glass.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00223": {
+        "id": "00223",
+        "text": "A serene beach scene at sunset with 'Paradise Awaits' written in the sand, the ocean gently lapping at the letters.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00224": {
+        "id": "00224",
+        "text": "A bustling city street, a neon 'Open 24 Hours' sign glowing above a small diner.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00225": {
+        "id": "00225",
+        "text": "A snowy mountain peak with a wooden signpost reading 'Summit Trail' against a clear blue sky.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00226": {
+        "id": "00226",
+        "text": "A garden gate with 'Welcome Friends' painted on a hanging wooden plaque, surrounded by blooming flowers.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00227": {
+        "id": "00227",
+        "text": "An elegant wedding venue, a 'Just Married' banner draped across the back of a vintage car.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00228": {
+        "id": "00228",
+        "text": "'Book Nook' carved on a small library door, lantern-lit beside.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00229": {
+        "id": "00229",
+        "text": "A 'No Parking' sign on a busy street.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            3
+        ]
+    },
+    "00230": {
+        "id": "00230",
+        "text": "A 'Veggie Patch' sign staked in a garden, lush greens around.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            0,
+            1,
+            2
+        ],
+        "neg": [
+            3,
+            4,
+            5
+        ]
+    },
+    "00231": {
+        "id": "00231",
+        "text": "'Tea Time' painted on a quaint cafe sign.",
+        "skills": [
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2
+        ],
+        "neg": [
+            3,
+            4,
+            5
+        ]
+    },
+    "00232": {
+        "id": "00232",
+        "text": "'Zen Garden' etched into a stone at a peaceful retreat.",
+        "skills": [
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00233": {
+        "id": "00233",
+        "text": "'Eco Market' on a banner above a green lifestyle fair.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00234": {
+        "id": "00234",
+        "text": "'Art Center' is spray-painted on the wall of the City Gallery.",
+        "skills": [
+            "attribute",
+            "scene"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00235": {
+        "id": "00235",
+        "text": "'Jazz Night' flashing on a neon sign at the entrance to the Music Lounge.",
+        "skills": [
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00236": {
+        "id": "00236",
+        "text": "A sign in park says 'Bike Lane.'",
+        "skills": [
+            "attribute"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00240": {
+        "id": "00240",
+        "text": "A small dog with wings, wearing a bell around its neck that is bigger than itself.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00241": {
+        "id": "00241",
+        "text": "A gigantic dog that is taller than the tree next to it.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00242": {
+        "id": "00242",
+        "text": "A magical flower is taller than the house next to it.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00243": {
+        "id": "00243",
+        "text": "A green pumpkin is smiling happily, a red pumpkin is sitting sadly.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00244": {
+        "id": "00244",
+        "text": "In a mysterious forest, the leaves of a green tree shimmer with silvery glow, contrasting the dim leaves of a nearby red tree.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            5
+        ]
+    },
+    "00245": {
+        "id": "00245",
+        "text": "In a magnificent castle, a red dragon sits and a green dragon flies.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00247": {
+        "id": "00247",
+        "text": "A mystical forest at twilight, illuminated by three floating orbs, with one unicorn drinking from a clear stream.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00248": {
+        "id": "00248",
+        "text": "One ancient scroll unfurled inside a cavern, lit by two large crystals emitting a soft glow.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00249": {
+        "id": "00249",
+        "text": "One pirate ship sailing through space, crewed by five robots.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00250": {
+        "id": "00250",
+        "text": "A glowing ancient tree with five lanterns and surrounded by fireflies.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00251": {
+        "id": "00251",
+        "text": "Three floating islands above one  waterfall in a valley.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00252": {
+        "id": "00252",
+        "text": "One phoenix soaring above a mountain, its wings shedding three golden feathers.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00253": {
+        "id": "00253",
+        "text": "A table laden with apples and bananas, where all the fruits are green.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00254": {
+        "id": "00254",
+        "text": "In a modern laboratory, all the computer screens are turned on.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00255": {
+        "id": "00255",
+        "text": "A landscape where every tree is in full bloom, with petals covering the entirety of the ground.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00256": {
+        "id": "00256",
+        "text": "Inside a library where each book spine displays a unique, intricate pattern.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            4
+        ],
+        "neg": [
+            2,
+            3,
+            5
+        ]
+    },
+    "00257": {
+        "id": "00257",
+        "text": "An aquarium where every tank is home to a multitude of colorful fish, swimming in harmony.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00258": {
+        "id": "00258",
+        "text": "In a square, several children are playing, each wearing a red T-shirt.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            4
+        ]
+    },
+    "00259": {
+        "id": "00259",
+        "text": "A garden where every flower is in full bloom, showcasing a rainbow of colors.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00260": {
+        "id": "00260",
+        "text": "A bustling kitchen where every chef is preparing a dish.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00261": {
+        "id": "00261",
+        "text": "On the grass, all the children are lying down, laughing joyfully.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00262": {
+        "id": "00262",
+        "text": "A classroom where every student's desk is covered with creative projects and experiments.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00264": {
+        "id": "00264",
+        "text": "Little fairies are flying in the sky, each with pink butterfly wings.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00265": {
+        "id": "00265",
+        "text": "An old-fashioned barber shop, where every chair is occupied by a customer under a barber's cape.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00266": {
+        "id": "00266",
+        "text": "A group of people are gathered at a party, all sitting around a dining table.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            4
+        ],
+        "neg": [
+            1,
+            3,
+            5
+        ]
+    },
+    "00267": {
+        "id": "00267",
+        "text": "Two chairs in the room, both with books on them.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00268": {
+        "id": "00268",
+        "text": "A traditional potter's workshop, where every shelf holds rows of terracotta pots, each imprinted with intricate designs.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00269": {
+        "id": "00269",
+        "text": "A bakery where every shelf is filled with a variety of bread and pastries.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00270": {
+        "id": "00270",
+        "text": "A spotted dog, a cat and a bird on a table.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00271": {
+        "id": "00271",
+        "text": "A dog, a cat and a chicken on a table.",
+        "skills": [
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00272": {
+        "id": "00272",
+        "text": "A young man with a green bat and a blue ball.",
+        "skills": [
+            "attribute"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00273": {
+        "id": "00273",
+        "text": "A young man with a blue bat and a green ball.",
+        "skills": [
+            "attribute"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00274": {
+        "id": "00274",
+        "text": "parent pointing at a child.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00275": {
+        "id": "00275",
+        "text": "A child pointing at parent.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00276": {
+        "id": "00276",
+        "text": "A young lady wearing a T-shirt puts her hand on a puppy's head.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00277": {
+        "id": "00277",
+        "text": "A young lady wearing a T-shirt puts her hand on a puppy's paw.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00279": {
+        "id": "00279",
+        "text": "A young woman in a red long-sleeved dress.",
+        "skills": [
+            "attribute",
+            "part relation"
+        ],
+        "pos": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1
+        ]
+    },
+    "00280": {
+        "id": "00280",
+        "text": "A cat chasing a dog.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00281": {
+        "id": "00281",
+        "text": "A dog chasing a cat.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00282": {
+        "id": "00282",
+        "text": "A group of children playing in the garden.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00283": {
+        "id": "00283",
+        "text": "A group of children playing on the beach.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00284": {
+        "id": "00284",
+        "text": "A woman wearing a T-shirt and gloves.",
+        "skills": [
+            "part relation"
+        ],
+        "pos": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1
+        ]
+    },
+    "00285": {
+        "id": "00285",
+        "text": "A woman in a long-sleeved dress with a ring.",
+        "skills": [
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00286": {
+        "id": "00286",
+        "text": "A spotted dog, a cat and a bird on a round table.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00287": {
+        "id": "00287",
+        "text": "A dog, a cat and a bird on a chair.",
+        "skills": [
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1,
+            5
+        ],
+        "neg": [
+            2,
+            3,
+            4
+        ]
+    },
+    "00288": {
+        "id": "00288",
+        "text": "A boy and a dog standing in the desert.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            5
+        ]
+    },
+    "00289": {
+        "id": "00289",
+        "text": "A boy and a dog standing in the beach.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00290": {
+        "id": "00290",
+        "text": "A man is hugging a box full of flowers on the floor.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00291": {
+        "id": "00291",
+        "text": "A man is pushing a box full of flowers on the floor.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00292": {
+        "id": "00292",
+        "text": "A young man is holding a blue bat and a green ball.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00295": {
+        "id": "00295",
+        "text": "There is a watering can and a flowerpot on the table, the watering can is bigger than the flowerpot.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            2
+        ],
+        "neg": [
+            3,
+            4,
+            5
+        ]
+    },
+    "00296": {
+        "id": "00296",
+        "text": "A cute dog without a collar.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00298": {
+        "id": "00298",
+        "text": "In the bedroom, there are three chairs with a book on each of them.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00299": {
+        "id": "00299",
+        "text": "there are four chairs in the bedroom.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00300": {
+        "id": "00300",
+        "text": "The chairs in the bedroom are all white.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00302": {
+        "id": "00302",
+        "text": "An artist in a paint-splattered apron holding a palette.",
+        "skills": [
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00303": {
+        "id": "00303",
+        "text": "A man in a lab coat examining a beaker of colorful liquid.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00304": {
+        "id": "00304",
+        "text": "A girl with pigtails holding a giant sunflower.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00305": {
+        "id": "00305",
+        "text": "A skateboarder performing a trick in an urban skate park.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00306": {
+        "id": "00306",
+        "text": "A fisherman casting a line at sunrise by a tranquil lake.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            4
+        ]
+    },
+    "00307": {
+        "id": "00307",
+        "text": "A pilot in aviator sunglasses stepping into a small plane.",
+        "skills": [
+            "attribute",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            4
+        ],
+        "neg": [
+            2,
+            3,
+            5
+        ]
+    },
+    "00308": {
+        "id": "00308",
+        "text": "A young librarian is shelving books in a cozy library corner.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00309": {
+        "id": "00309",
+        "text": "A farmer in overalls tending to a field of corn.",
+        "skills": [
+            "scene",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00310": {
+        "id": "00310",
+        "text": "A child blowing bubbles in a field of daisies.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00311": {
+        "id": "00311",
+        "text": "A surfer riding a large wave at sunset.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00313": {
+        "id": "00313",
+        "text": "A dancer in a flowing dress spinning in a spotlight.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00314": {
+        "id": "00314",
+        "text": "A sculptor chiseling a piece of marble.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            2
+        ]
+    },
+    "00315": {
+        "id": "00315",
+        "text": "A barista creating latte art in a cozy cafe.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00316": {
+        "id": "00316",
+        "text": "A cyclist racing down a winding mountain path.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            4
+        ]
+    },
+    "00317": {
+        "id": "00317",
+        "text": "A gardener pruning roses in a vibrant garden.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00318": {
+        "id": "00318",
+        "text": "Two joggers running along a misty riverbank at dawn.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00319": {
+        "id": "00319",
+        "text": "A violinist playing in a candlelit room.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00320": {
+        "id": "00320",
+        "text": "A mechanic working under the hood of a classic car.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00321": {
+        "id": "00321",
+        "text": "A nurse comforting a patient in a hospital room.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00323": {
+        "id": "00323",
+        "text": "A child hunting for treasure with a metal detector on the beach.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00324": {
+        "id": "00324",
+        "text": "A beekeeper tending to hives in a field of lavender.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00325": {
+        "id": "00325",
+        "text": "A photographer capturing a butterfly on a wildflower.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00326": {
+        "id": "00326",
+        "text": "A jogger and their dog runningon the beach.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00327": {
+        "id": "00327",
+        "text": "A magician pulling a rabbit out of a hat.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00328": {
+        "id": "00328",
+        "text": "A detective examining clues with a magnifying glass.",
+        "skills": [
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00329": {
+        "id": "00329",
+        "text": "A bride throwing her bouquet in a garden wedding.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00330": {
+        "id": "00330",
+        "text": "A street performer juggling fire torches at night.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00331": {
+        "id": "00331",
+        "text": "A child making a sandcastle on a beach in a cloudy day.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00333": {
+        "id": "00333",
+        "text": "A monk meditating beside a tranquil mountain stream.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            2,
+            3
+        ]
+    },
+    "00334": {
+        "id": "00334",
+        "text": "A florist arranging a bouquet of colorful flowers.",
+        "skills": [
+            "attribute",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            5
+        ]
+    },
+    "00336": {
+        "id": "00336",
+        "text": "A gymnast performing a routine on the balance beam.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00337": {
+        "id": "00337",
+        "text": "A vampire lurking in the shadows of an old castle.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00338": {
+        "id": "00338",
+        "text": "A wizard casting a spell with a wand in a mystical forest.",
+        "skills": [
+            "scene",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00339": {
+        "id": "00339",
+        "text": "A ghost hunter investigating an abandoned mansion.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00340": {
+        "id": "00340",
+        "text": "A mermaid basking on a rock by the moonlit sea.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00341": {
+        "id": "00341",
+        "text": "A knight in shining armor jousting at a medieval fair.",
+        "skills": [
+            "attribute",
+            "scene",
+            "action relation",
+            "part relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00342": {
+        "id": "00342",
+        "text": "A robot dancing in a futuristic cityscape.",
+        "skills": [
+            "scene",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            3,
+            4
+        ]
+    },
+    "00343": {
+        "id": "00343",
+        "text": "An astronaut planting a flag on a distant planet.",
+        "skills": [
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00344": {
+        "id": "00344",
+        "text": "Kids race their bikes down the hill as their friends cheer from the sidelines, and a kite flutters in the breeze above them.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00345": {
+        "id": "00345",
+        "text": "A sailboat drifts lazily along the river, with swans paddling gently beside it and willows weeping at its banks.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            2
+        ]
+    },
+    "00346": {
+        "id": "00346",
+        "text": "Sunglasses rest atop a magazine, and a beach towel is spread out on the sand.",
+        "skills": [
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            3
+        ],
+        "neg": [
+            2,
+            4,
+            5
+        ]
+    },
+    "00347": {
+        "id": "00347",
+        "text": "A wilderness scene, wildflowers blooming on the right while a dense forest stands to the left.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            1
+        ],
+        "neg": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00348": {
+        "id": "00348",
+        "text": "In the study, a desk lamp casts a warm glow over an open journal and a fountain pen.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00349": {
+        "id": "00349",
+        "text": "Bookends hold a row of novels in place: one end features a sculpture of a cat, the other a dog.",
+        "skills": [
+            "action relation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00350": {
+        "id": "00350",
+        "text": "A bridge arches over the river, with lanterns lit on one side and the other in darkness.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            1,
+            2
+        ],
+        "neg": [
+            0,
+            3,
+            4,
+            5
+        ]
+    },
+    "00352": {
+        "id": "00352",
+        "text": "On a busy desk, a lamp sheds light on a cluttered area filled with papers, while the other half remains organized.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    "00353": {
+        "id": "00353",
+        "text": "In the park, a statue stands in the middle, surrounded by blooming flowers and people enjoying a sunny day.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00354": {
+        "id": "00354",
+        "text": "Tea steams in a cup, next to a closed diary with a pen resting on its cover.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "part relation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00355": {
+        "id": "00355",
+        "text": "A balloon drifts gently up into the blue sky, with excited children watching from the ground.",
+        "skills": [
+            "attribute",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00356": {
+        "id": "00356",
+        "text": "Inside the camp, a fire crackles, casting shadows on the tent walls, with backpacks and maps spread out.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation",
+            "action relation"
+        ],
+        "pos": [
+            0,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            5
+        ]
+    },
+    "00357": {
+        "id": "00357",
+        "text": "There are two men in the living room, the taller one to the left of the shorter one.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00359": {
+        "id": "00359",
+        "text": "Two birds are chasing each other in the air, the one flying higher has a long tail and the other bird has a short tail.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00360": {
+        "id": "00360",
+        "text": "In the classroom there are two boys standing together, the boy in the red jumper is taller than the boy in the white t-shirt.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00361": {
+        "id": "00361",
+        "text": "There are two shoes on the grass, the one without laces looks newer than the one with laces.",
+        "skills": [
+            "counting",
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00362": {
+        "id": "00362",
+        "text": "At the beach, three seashells lie close together: the largest has a spiraled pattern, the medium one is smooth and white, and the smallest has stripes.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00363": {
+        "id": "00363",
+        "text": "Two kites flying high in the sky, the dragon-shaped one flies higher and is more colorful than the geometric-patterned one.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00364": {
+        "id": "00364",
+        "text": "On the bookshelf, the picture frame on the left, containing a black and white photograph, appears older than the colorful painting on the right.",
+        "skills": [
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00365": {
+        "id": "00365",
+        "text": "On the road, two cars drive parallel: the faster one is a sleek sports model, while the slower one is a large, family SUV.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00366": {
+        "id": "00366",
+        "text": "In the pond, two ducks swim near each other: the larger one has a bright green head, while the smaller one is all brown.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00368": {
+        "id": "00368",
+        "text": "In the park, the older tree is taller and has more branches than the younger sapling planted beside it.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00370": {
+        "id": "00370",
+        "text": "Two children laugh joyfully, the bigger one holding a balloon, the other clutching a toy.",
+        "skills": [
+            "counting",
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00371": {
+        "id": "00371",
+        "text": "Two birds soar high above the clouds, while another glides low over the water.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00374": {
+        "id": "00374",
+        "text": "One circular window shines brightly with light, another rectangular one is dark.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00375": {
+        "id": "00375",
+        "text": "Two cats sit at the window, the blue one intently watching the rain, the red one curled up asleep.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00376": {
+        "id": "00376",
+        "text": "Two birds perch on a branch, the happy one chirping loudly, the sad one listening silently.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00378": {
+        "id": "00378",
+        "text": "A short sunflower stands tall and faces the sun, while another tall one bends towards the ground.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00379": {
+        "id": "00379",
+        "text": "One person in white jogs with a steady pace, one person in red sprints with all their might.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00380": {
+        "id": "00380",
+        "text": "One squirrel gathers nuts quickly on the ground, another lazily stretches on a branch.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00381": {
+        "id": "00381",
+        "text": "A butterfly with bright wings flits from flower to flower, another rests on a leaf, wings folded.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00382": {
+        "id": "00382",
+        "text": "A puppy on the right chases its tail in circles, while another one on the left lies quietly, watching.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00384": {
+        "id": "00384",
+        "text": "A black cat sits on a window sill, while a white cat lies beneath the sill in the sunlight.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00386": {
+        "id": "00386",
+        "text": "A big green apple next to a small red apple on a kitchen counter.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            1,
+            5
+        ]
+    },
+    "00387": {
+        "id": "00387",
+        "text": "A tall cactus in a terracotta pot next to a short succulent in a ceramic bowl.",
+        "skills": [
+            "attribute",
+            "spatial relation"
+        ],
+        "pos": [
+            1,
+            3
+        ],
+        "neg": [
+            0,
+            2,
+            4,
+            5
+        ]
+    },
+    "00388": {
+        "id": "00388",
+        "text": "A yellow school bus in front of a red fire engine at a community event.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00389": {
+        "id": "00389",
+        "text": "A blue bicycle leaning against a red brick wall, with a green bicycle parked beside it.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00390": {
+        "id": "00390",
+        "text": "A brown oak tree with lush leaves next to a birch tree with peeling bark in a forest.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00391": {
+        "id": "00391",
+        "text": "A fluffy white cloud above a darker storm cloud at sunset.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            2,
+            3
+        ]
+    },
+    "00392": {
+        "id": "00392",
+        "text": "A small pond with a black swan on the left and a white swan on the right.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00393": {
+        "id": "00393",
+        "text": "A striped beach umbrella in the sand with a solid blue umbrella behind it.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4
+        ]
+    },
+    "00394": {
+        "id": "00394",
+        "text": "A large pizza with pepperoni on the left half and mushrooms on the right half.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00395": {
+        "id": "00395",
+        "text": "A red rose in full bloom next to a pink rosebud in a garden.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            1,
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            3,
+            5
+        ]
+    },
+    "00396": {
+        "id": "00396",
+        "text": "A vintage analog clock hangs on the wall above a modern digital clock that sits on a desk.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3
+        ],
+        "neg": [
+            1,
+            4,
+            5
+        ]
+    },
+    "00397": {
+        "id": "00397",
+        "text": "A large teddy bear wearing a bow tie next to a small teddy bear wearing a party hat.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00398": {
+        "id": "00398",
+        "text": "An orange tabby cat lounges on a sunny windowsill, with a grey tabby stretching on the floor below.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00399": {
+        "id": "00399",
+        "text": "A leather-bound journal atop an oak desk, beside a stack of vintage paperbacks.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00400": {
+        "id": "00400",
+        "text": "A pair of yellow rubber boots standing at the doorstep, with a pair of green gardening gloves draped over them.",
+        "skills": [
+            "counting",
+            "differentiation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00401": {
+        "id": "00401",
+        "text": "A chocolate cupcake with vanilla frosting on a plate, beside a vanilla cupcake with chocolate frosting.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00402": {
+        "id": "00402",
+        "text": "A rustic wooden bench under a sprawling oak, with a modern metal chair facing it across a stone path.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00403": {
+        "id": "00403",
+        "text": "A steaming cup of coffee on a bookshelf, above a row of antique tea cups.",
+        "skills": [
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00404": {
+        "id": "00404",
+        "text": "A plush velvet armchair in the corner of a library, with a sleek leather sofa along the opposite wall.",
+        "skills": [
+            "attribute",
+            "scene",
+            "spatial relation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00405": {
+        "id": "00405",
+        "text": "In the cafe, there's a steaming cup of coffee and a freshly baked croissant on every table.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00406": {
+        "id": "00406",
+        "text": "A serene yoga studio with several yoga mats, each with a person seated in deep meditation.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            5
+        ],
+        "neg": [
+            1,
+            3,
+            4
+        ]
+    },
+    "00408": {
+        "id": "00408",
+        "text": "An antique bookshop with aisles filled with books.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00409": {
+        "id": "00409",
+        "text": "A rooftop garden with a row of planters, each filled with herbs and flowers.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            2
+        ]
+    },
+    "00410": {
+        "id": "00410",
+        "text": "A tree shadow on every car in the lot.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            3
+        ]
+    },
+    "00411": {
+        "id": "00411",
+        "text": "Orange juice and toast on every breakfast table.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    "00412": {
+        "id": "00412",
+        "text": "At the party, a pineapple is flanked by beers on each side.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00413": {
+        "id": "00413",
+        "text": "Near every parked pickup truck, there's a horse standing by.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            4
+        ]
+    },
+    "00414": {
+        "id": "00414",
+        "text": "Leaves falling on every car in the autumn.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00415": {
+        "id": "00415",
+        "text": "At a birthday party, all the balloons are red.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00416": {
+        "id": "00416",
+        "text": "A group of children are playing in the garden and all the children are not wearing shoes.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00418": {
+        "id": "00418",
+        "text": "Every child in the classroom has a smile on their face.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            3,
+            4
+        ]
+    },
+    "00419": {
+        "id": "00419",
+        "text": "Basking in the sunshine, all the cats are peacefully sleeping.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00420": {
+        "id": "00420",
+        "text": "Every tree in the forest is covered in snow, creating a serene winter landscape.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            4
+        ]
+    },
+    "00421": {
+        "id": "00421",
+        "text": "In the park, every bench is occupied by people enjoying their books.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            2,
+            4
+        ]
+    },
+    "00422": {
+        "id": "00422",
+        "text": "On the farm, each animal is settling down for the night.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00423": {
+        "id": "00423",
+        "text": "Every tree in the forest is green, except for one that is red.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "neg": [
+            4,
+            5
+        ]
+    },
+    "00425": {
+        "id": "00425",
+        "text": "All the books on the shelf are closed, except for one that lies open.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00426": {
+        "id": "00426",
+        "text": "Among all the cars in the parking lot, each one is parked neatly except for one that is askew.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00427": {
+        "id": "00427",
+        "text": "In a field of flowers, every bloom is yellow, save for one that is blue.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00430": {
+        "id": "00430",
+        "text": "Every lamp in the street is lit, except for one that remains dark.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00432": {
+        "id": "00432",
+        "text": "All the doors in the hallway are closed, except for one that is slightly ajar.",
+        "skills": [
+            "counting",
+            "universal"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00433": {
+        "id": "00433",
+        "text": "A tree with no leaves, only shadows beneath.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            4,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3
+        ]
+    },
+    "00434": {
+        "id": "00434",
+        "text": "A sky with stars, but no moon in sight.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            3,
+            5
+        ]
+    },
+    "00435": {
+        "id": "00435",
+        "text": "A street with no people, only lights.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            5
+        ],
+        "neg": [
+            2,
+            3,
+            4
+        ]
+    },
+    "00436": {
+        "id": "00436",
+        "text": "A birdcage with no door, yet no bird inside.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00437": {
+        "id": "00437",
+        "text": "A shoe with no laces, standing alone.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00438": {
+        "id": "00438",
+        "text": "A garden with no paths, only wildflowers.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00439": {
+        "id": "00439",
+        "text": "A kitchen with no stove, only empty counters.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00440": {
+        "id": "00440",
+        "text": "A boat with no sails, adrift on calm waters.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00441": {
+        "id": "00441",
+        "text": "A painting with no colors, only shades of gray.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            5
+        ]
+    },
+    "00442": {
+        "id": "00442",
+        "text": "A bridge with no end, vanishing into the fog.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            4
+        ],
+        "neg": [
+            2,
+            3,
+            5
+        ]
+    },
+    "00443": {
+        "id": "00443",
+        "text": "A glass with no water, only ice melting.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00445": {
+        "id": "00445",
+        "text": "A bike with no pedals.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00446": {
+        "id": "00446",
+        "text": "A ball with no bounce, lying still.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00447": {
+        "id": "00447",
+        "text": "A coat with no buttons, hanging loosely.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            3
+        ]
+    },
+    "00448": {
+        "id": "00448",
+        "text": "Two children sitting on the bed, the one on the left making faces, the one on the right not making faces.",
+        "skills": [
+            "counting",
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00450": {
+        "id": "00450",
+        "text": "A beach without any footprints in the sand.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            4
+        ],
+        "neg": [
+            3,
+            5
+        ]
+    },
+    "00451": {
+        "id": "00451",
+        "text": "A forest where no animals can be seen.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00454": {
+        "id": "00454",
+        "text": "A classroom with every chair empty.",
+        "skills": [
+            "universal"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00456": {
+        "id": "00456",
+        "text": "A playground with no children playing.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00457": {
+        "id": "00457",
+        "text": "A road with no signs or markings.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00458": {
+        "id": "00458",
+        "text": "A river with no fish swimming.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            4
+        ],
+        "neg": [
+            2,
+            3,
+            5
+        ]
+    },
+    "00459": {
+        "id": "00459",
+        "text": "A mountain with no snow on its peak.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00460": {
+        "id": "00460",
+        "text": "A field without a single blade of grass.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00461": {
+        "id": "00461",
+        "text": "A garden full of flowers, yet not a single rose can be found.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            4
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            5
+        ]
+    },
+    "00463": {
+        "id": "00463",
+        "text": "A bustling city street with cars, but no bicycles.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00464": {
+        "id": "00464",
+        "text": "A bookshelf filled with books, but not a single magazine.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00465": {
+        "id": "00465",
+        "text": "A kitchen with every appliance except a microwave.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2
+        ],
+        "neg": [
+            0,
+            3,
+            4,
+            5
+        ]
+    },
+    "00466": {
+        "id": "00466",
+        "text": "A classroom full of students, but no teacher in sight.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1
+        ]
+    },
+    "00467": {
+        "id": "00467",
+        "text": "A snowy landscape with a cabin, but no smoke from the chimney.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            3
+        ]
+    },
+    "00468": {
+        "id": "00468",
+        "text": "A pair of shoes, one tied and the other not.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00470": {
+        "id": "00470",
+        "text": "A playground with swings, but no slide.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    "00471": {
+        "id": "00471",
+        "text": "A road with cars, but no traffic lights.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            3,
+            4
+        ]
+    },
+    "00472": {
+        "id": "00472",
+        "text": "Five pencils on the desk, but no erasers.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00474": {
+        "id": "00474",
+        "text": "A person with glasses reading a book, while another without glasses is not.",
+        "skills": [
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00475": {
+        "id": "00475",
+        "text": "Two car in the street, the car on the left is red, but the one on the right is not.",
+        "skills": [
+            "counting",
+            "differentiation",
+            "negation"
+        ],
+        "pos": [
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00476": {
+        "id": "00476",
+        "text": "A musician with a guitar, but no audience to listen.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00477": {
+        "id": "00477",
+        "text": "Two windows in a room; one is open, but the other is not.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00478": {
+        "id": "00478",
+        "text": "A basket full of apples, but no oranges.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            3
+        ]
+    },
+    "00479": {
+        "id": "00479",
+        "text": "A row of houses with chimneys, but no smoke coming out.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4
+        ]
+    },
+    "00482": {
+        "id": "00482",
+        "text": "A snowy hill with children sledding, but no snowman in sight.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            3
+        ]
+    },
+    "00483": {
+        "id": "00483",
+        "text": "Two cups on the table; one is full, but the other is not.",
+        "skills": [
+            "counting",
+            "negation"
+        ],
+        "pos": [
+            1
+        ],
+        "neg": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00484": {
+        "id": "00484",
+        "text": "A bridge over a river, but no cars crossing.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            1,
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            3,
+            5
+        ]
+    },
+    "00485": {
+        "id": "00485",
+        "text": "A zoo with no animals in the enclosures.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00486": {
+        "id": "00486",
+        "text": "A kitchen with every cupboard bare.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            2,
+            5
+        ]
+    },
+    "00487": {
+        "id": "00487",
+        "text": "A mirror with no reflection.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            4
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            5
+        ]
+    },
+    "00488": {
+        "id": "00488",
+        "text": "A calendar with no dates marked.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00490": {
+        "id": "00490",
+        "text": "A hotel with no guests checking in.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            2
+        ]
+    },
+    "00491": {
+        "id": "00491",
+        "text": "A fountain with no water flowing.",
+        "skills": [
+            "negation"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00492": {
+        "id": "00492",
+        "text": "A beach scene where the sandcastle appears taller than the nearby cooler.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00493": {
+        "id": "00493",
+        "text": "A bustling street with more bicycles than cars parked along the sidewalk.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            4
+        ]
+    },
+    "00494": {
+        "id": "00494",
+        "text": "A starry night sky with more visible stars than the number of lights in the city below.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            3,
+            4
+        ],
+        "neg": [
+            0,
+            2,
+            5
+        ]
+    },
+    "00495": {
+        "id": "00495",
+        "text": "In a crowded room, there are more people standing than sitting.",
+        "skills": [
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            1,
+            4
+        ]
+    },
+    "00496": {
+        "id": "00496",
+        "text": "A fruit basket with more apples than oranges.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0
+        ]
+    },
+    "00498": {
+        "id": "00498",
+        "text": "A classroom with more chairs than students.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2
+        ]
+    },
+    "00499": {
+        "id": "00499",
+        "text": "A painting where the mountain is depicted as taller than the trees in the foreground.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            1,
+            4
+        ],
+        "neg": [
+            2,
+            3,
+            5
+        ]
+    },
+    "00500": {
+        "id": "00500",
+        "text": "A library with more shelves filled with books than empty ones.",
+        "skills": [
+            "comparison",
+            "differentiation"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00502": {
+        "id": "00502",
+        "text": "A bakery display with more chocolate pastries than fruit-filled ones.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            2
+        ]
+    },
+    "00503": {
+        "id": "00503",
+        "text": "An office with more desks than computers.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            1,
+            3,
+            5
+        ],
+        "neg": [
+            0,
+            2,
+            4
+        ]
+    },
+    "00504": {
+        "id": "00504",
+        "text": "A vintage car show with more convertibles than sedans.",
+        "skills": [
+            "comparison"
+        ],
+        "pos": [
+            0,
+            2,
+            4
+        ],
+        "neg": [
+            1,
+            3,
+            5
+        ]
+    },
+    "00505": {
+        "id": "00505",
+        "text": "Two dogs playing with one red ball.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "neg": [
+            5
+        ]
+    },
+    "00506": {
+        "id": "00506",
+        "text": "Three apples next to four oranges on a table.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00507": {
+        "id": "00507",
+        "text": "One cat sleeping under five bright stars",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "00509": {
+        "id": "00509",
+        "text": "Four children jumping rope in the park",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00510": {
+        "id": "00510",
+        "text": "Two bicycles leaning against a wall with three windows.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            5
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4
+        ]
+    },
+    "00511": {
+        "id": "00511",
+        "text": "Four cupcakes with sprinkles on a plate with two forks.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00512": {
+        "id": "00512",
+        "text": "Three kites soaring in the sky above two hills.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            5
+        ],
+        "neg": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    "00516": {
+        "id": "00516",
+        "text": "Five buttons sewn onto a piece of fabric with two needles.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            5
+        ]
+    },
+    "00517": {
+        "id": "00517",
+        "text": "Three snowmen standing in a garden with two pine trees.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            4
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            5
+        ]
+    },
+    "00518": {
+        "id": "00518",
+        "text": "Two clouds casting shadows over three sunflowers.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            3
+        ],
+        "neg": [
+            0,
+            1,
+            4,
+            5
+        ]
+    },
+    "00519": {
+        "id": "00519",
+        "text": "Two apples on a kitchen counter.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "neg": [
+            4
+        ]
+    },
+    "00520": {
+        "id": "00520",
+        "text": "Three birds sitting on a wire.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00521": {
+        "id": "00521",
+        "text": "Four pencils in a cup.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2
+        ],
+        "neg": [
+            1,
+            3,
+            4,
+            5
+        ]
+    },
+    "00523": {
+        "id": "00523",
+        "text": "One cat napping in the sun.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            1
+        ]
+    },
+    "00524": {
+        "id": "00524",
+        "text": "Two shoes by the front door.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "neg": [
+            0,
+            1
+        ]
+    },
+    "00525": {
+        "id": "00525",
+        "text": "Three cookies on a plate.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            0,
+            3
+        ],
+        "neg": [
+            1,
+            2,
+            4,
+            5
+        ]
+    },
+    "00526": {
+        "id": "00526",
+        "text": "Four leaves on a branch.",
+        "skills": [
+            "counting"
+        ],
+        "pos": [
+            2
+        ],
+        "neg": [
+            0,
+            1,
+            3,
+            4,
+            5
+        ]
+    }
+}
