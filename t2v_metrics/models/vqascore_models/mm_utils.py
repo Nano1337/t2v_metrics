@@ -87,24 +87,7 @@ def load_pretrained_model(model_cls,
     # read in from that config file instead
     print("Loading LLAVA DPO adaptor")
     adaptor_path = "/home/haoli/Documents/VQAscore-DPO/checkpoints/llava_loraft_dpo_hardneg"
-    from peft import LoraConfig
-    lora_config = LoraConfig(
-        r=128,
-        lora_alpha=256,
-        target_modules=[
-            "o_proj",
-            "k_proj",
-            "gate_proj",
-            "up_proj",
-            "v_proj",
-            "down_proj",
-            "q_proj"
-        ],
-        lora_dropout=0.05,
-        bias="none",
-        task_type="CAUSAL_LM",
-    )
-    model.load_adapter(peft_model_id=adaptor_path, peft_config=lora_config)
+    model.load_adapter(peft_model_id=adaptor_path)
     
     if mmprojector_repo:
         from huggingface_hub import hf_hub_download
