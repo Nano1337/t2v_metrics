@@ -80,7 +80,31 @@ def load_pretrained_model(model_cls,
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, use_fast=False, **tokenizer_dict)
     tokenizer.pad_token = tokenizer.unk_token # could be redundant
 
+    # load model, optionally load peft adaptor weights
     model = model_cls.from_pretrained(model_path, cache_dir=cache_dir)
+    
+    # FIXME: make this less hacky using an arg, make a default param to pass in load_lora=True
+    # read in from that config file instead
+    print("Loading LLAVA DPO adaptor")
+    adaptor_path = "/home/haoli/Documents/VQAscore-DPO/checkpoints/llava_loraft_dpo_hardneg"
+    from peft import LoraConfig
+    lora_config = LoraConfig(
+        r=128,
+        lora_alpha=256,
+        target_modules=[
+            "o_proj",
+            "k_proj",
+            "gate_proj",
+            "up_proj",
+            "v_proj",
+            "down_proj",
+            "q_proj"
+        ],
+        lora_dropout=0.05,
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+    model.load_adapter(peft_model_id=adaptor_path, peft_config=lora_config)
     
     if mmprojector_repo:
         from huggingface_hub import hf_hub_download

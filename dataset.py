@@ -1432,7 +1432,7 @@ class GenAIBench_Image(Dataset):
         kendall_b = calc_metric(human_scores, our_scores, variant="tau_b")
         print(f'Kendall Tau-B Score (no grouping): ', kendall_b)
         
-        pairwise_acc = calc_metric(human_scores, our_scores, variant="pairwise_acc_with_tie_optimization")
+        pairwise_acc, _ = calc_metric(human_scores, our_scores, variant="pairwise_acc_with_tie_optimization")
         print(f'Pairwise Accuracy Score (no grouping): ', pairwise_acc)
         
         results = {

@@ -187,3 +187,4 @@ menv/
 opticalillusion.png
 test.py 
 testimg.png
+*.pt

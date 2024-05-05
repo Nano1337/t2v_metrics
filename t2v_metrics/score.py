@@ -81,9 +81,36 @@ class Score(nn.Module):
                 images = batch['images'][image_idx]
                 for text_idx in range(num_texts):
                     texts = batch['texts'][text_idx]
-                    scores[counter:counter+cur_batch_size, image_idx, text_idx] = \
-                        self.model.forward(images, texts, **kwargs)
+                    out = self.model.forward(images, texts, **kwargs)
+                    scores[counter:counter+cur_batch_size, image_idx, text_idx] = out
             
             counter += cur_batch_size
         return scores
     
+"""
+
+    for tag in tags:
+        tag_result[tag] = {}
+        mscore, hscore = [], []
+        import matplotlib.pyplot as plt
+        from scipy.stats import pearsonr
+
+        # Plot our scores subset for all models
+        plt.figure(figsize=(10, 6))
+        for model in items_by_model_tag[tag]:
+            model_indices = items_by_model_tag[tag][model]
+            our_scores_subset = our_scores[model_indices].flatten()
+            human_scores_subset = np.array(human_scores)[model_indices]
+            plt.scatter(human_scores_subset, our_scores_subset, label=model)
+
+        # Assume points are paired. Redo scatter plot
+        plt.plot(human_scores_subset, our_scores_subset, 'ro')
+
+        # Calculate and plot correlation score
+        r, _ = pearsonr(human_scores_subset, our_scores_subset)
+        plt.title(f'Correlation Score: {r:.2f}')
+        plt.legend()
+        plt.savefig(f'{tag}_scores.png')
+        plt.close()
+        exit()
+"""

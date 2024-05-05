@@ -19,7 +19,8 @@ def config():
     parser.add_argument("--cache_dir", default=t2v_metrics.constants.HF_CACHE_DIR, type=str) 
     parser.add_argument("--device", default="cuda", type=str)
     parser.add_argument("--batch_size", default=2, type=int)
-    parser.add_argument("--model", default="clip-flant5-xxl", type=str)
+    parser.add_argument("--model", default="clip-flant5-xl", type=str)
+    # parser.add_argument("--model", default="llava-v1.5-7b", type=str)
     parser.add_argument("--question", default=None, type=str)
     parser.add_argument("--answer", default=None, type=str)
     parser.add_argument("--result_dir", default="./genai_image_results", type=str)
@@ -120,29 +121,52 @@ def show_performance_per_skill(our_scores, dataset_obj, items_name='images', pro
     
     for tag in tags:
         tag_result[tag] = {}
+        mscore, hscore = [], []
         for model in items_by_model_tag[tag]:
             model_indices = items_by_model_tag[tag][model]
             our_scores_subset = our_scores[model_indices].flatten()
             human_scores_subset = np.array(human_scores)[model_indices]
             pearson_corr = calc_pearson(our_scores_subset, human_scores_subset)
-            kendall_tau, _ = calc_metric(human_scores_subset, our_scores_subset, variant="pairwise_acc_with_tie_optimization")
+            kendall_tau = calc_metric(human_scores_subset, our_scores_subset, variant="tau_b")
+            pairwise, _ = calc_metric(human_scores_subset, our_scores_subset, variant="pairwise_acc_with_tie_optimization")
             
             tag_result[tag][model] = {
                 'pearson': pearson_corr,
-                'kendall_tau': kendall_tau
+                'kendall_tau': kendall_tau, 
+                'pairwise': pairwise,
             }
-    
+            mscore.append(our_scores_subset)
+            hscore.append(human_scores_subset)
+
+        mscore = np.concatenate(mscore)
+        hscore = np.concatenate(hscore)
+        pearson_corr = calc_pearson(mscore, hscore)
+        kendall_tau = calc_metric(hscore, mscore, variant="tau_b")
+        pairwise, _ = calc_metric(hscore, mscore, variant="pairwise_acc_with_tie_optimization")
+        tag_result[tag]['all'] = {
+            'pearson': pearson_corr,
+            'kendall_tau': kendall_tau, 
+            'pairwise': pairwise,
+        }
+
+    # Print results for each tag group
     for tag_group in tag_groups:
         print(f"Tag Group: {tag_group} (Performance Metrics)")
-        tag_header = f"{'Model':<20}" + " ".join([f"{tag:<21}" for tag in tag_groups[tag_group]])
+        tag_header = f"{'Model':<20}" + " ".join([f"{tag:<32}" for tag in tag_groups[tag_group]])
         print(tag_header)
-        for model_name in items_by_model_tag[tag]:
+        for model_name in set(model for tag in tag_groups[tag_group] for model in items_by_model_tag[tag]):
             scores_line = f"{model_name:<20}"
             for tag in tag_groups[tag_group]:
-                scores = tag_result[tag][model_name]
-                scores_line += f"P: {scores['pearson']:.2f} | K: {scores['kendall_tau']:.2f}    "
+                scores = tag_result[tag].get(model_name, {'pearson': 0, 'kendall_tau': 0, 'pairwise': 0})
+                scores_line += f"P: {scores['pearson']:.2f} | K: {scores['kendall_tau']:.2f} | PW: {scores['pairwise']:.2f}    "
             print(scores_line)
-        print()
+        # Print "All" row
+        all_scores_line = f"{'All':<20}"
+        for tag in tag_groups[tag_group]:
+            all_scores = tag_result[tag]['all']
+            all_scores_line += f"P: {all_scores['pearson']:.2f} | K: {all_scores['kendall_tau']:.2f} | PW: {all_scores['pairwise']:.2f}    "
+        print(all_scores_line)
+        print() 
 
 def main():
     args = config()
@@ -166,7 +190,6 @@ def main():
             print(f"Using answer template: {args.answer}")
             kwargs['answer_template'] = args.answer
         
-        
         print(f"Performance of {args.model}.")
         scores = score_func.batch_forward(dataset, batch_size=args.batch_size, **kwargs).cpu()
         torch.save(scores, result_path)
@@ -178,11 +201,12 @@ def main():
         our_scores = scores.mean(axis=1)
         show_performance_per_skill(our_scores, dataset, print_std=True)    
 
+        print("Alignment Performance")
+        ### Alignment performance
+        dataset.evaluate_scores(scores)
+
         sys.stdout = original_stdout
     
-    # print("Alignment Performance")
-    # ### Alignment performance
-    # dataset.evaluate_scores(scores)
 
 if __name__ == "__main__":
     main()
