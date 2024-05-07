@@ -71,7 +71,8 @@ def load_pretrained_model(model_cls,
                           mmprojector_repo=None,
                           mmprojector_name=None,
                           device='cuda',
-                          cache_dir=HF_CACHE_DIR):
+                          cache_dir=HF_CACHE_DIR,
+                          adaptor_path=None):
     tokenizer_dict = {}
     if model_max_length:
         tokenizer_dict['model_max_length'] = model_max_length
@@ -83,12 +84,10 @@ def load_pretrained_model(model_cls,
     # load model, optionally load peft adaptor weights
     model = model_cls.from_pretrained(model_path, cache_dir=cache_dir)
     
-    # FIXME: make this less hacky using an arg, make a default param to pass in load_lora=True
-    # read in from that config file instead
-    print("Loading LLAVA DPO adaptor")
-    adaptor_path = "/home/haoli/Documents/VQAscore-DPO/checkpoints/llava_loraft_dpo_hardneg"
-    model.load_adapter(peft_model_id=adaptor_path)
-    
+    if adaptor_path:
+        print("Loading LLAVA DPO adaptor at path: ", adaptor_path)
+        model.load_adapter(peft_model_id=adaptor_path)
+        
     if mmprojector_repo:
         from huggingface_hub import hf_hub_download
         model_base_name = mmprojector_repo.split('/')[-1]

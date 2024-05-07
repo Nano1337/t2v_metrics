@@ -70,6 +70,19 @@ LLAVA_MODELS = {
             'image_aspect_ratio': 'pad',
         },
     },
+    'llava-v1.5-7b-dpo': {
+        'tokenizer' : {
+            'path': 'liuhaotian/llava-v1.5-7b',
+        },
+        'model': {
+            'path': 'liuhaotian/llava-v1.5-7b',
+            'conversation': 'chat',
+            'image_aspect_ratio': 'pad',
+        },
+        'adaptor': {
+            'path': '/home/haoli/Documents/VQAscore-DPO/checkpoints/llava_loraft_dpo_hardneg',
+        }
+    },
     # The following models are suboptimal, but are included for completeness.
     # 'llava-v1.5-13b-no-system': {
     #     'tokenizer' : {
@@ -176,6 +189,8 @@ class LLaVAModel(VQAScoreModel):
             if 'mmprojector_repo' in LLAVA_MODELS[self.model_name]['model'] else None
         mmprojector_name = LLAVA_MODELS[self.model_name]['model']['mmprojector_name'] \
             if 'mmprojector_name' in LLAVA_MODELS[self.model_name]['model'] else None
+        adaptor_path = LLAVA_MODELS[self.model_name]['adaptor']['path'] \
+            if 'adaptor' in LLAVA_MODELS[self.model_name] else None
         
         # default is 'pad' (llava-1.5 says this reduces hallucination)
         # stage-1 models use 'square'
@@ -197,7 +212,8 @@ class LLaVAModel(VQAScoreModel):
             mmprojector_repo=mmprojector_repo,
             mmprojector_name=mmprojector_name,
             device=self.device,
-            cache_dir=self.cache_dir
+            cache_dir=self.cache_dir, 
+            adaptor_path=adaptor_path,
         )
 
     def load_images(self,

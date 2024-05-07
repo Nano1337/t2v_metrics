@@ -14,7 +14,7 @@ def config():
     parser.add_argument("--device", default="cuda", type=str)
     parser.add_argument("--batch_size", default=1, type=int)
     # parser.add_argument("--model", default="clip-flant5-xl", type=str)
-    parser.add_argument("--model", default="llava-v1.5-7b", type=str)
+    parser.add_argument("--model", default="llava-v1.5-7b-dpo", type=str)
     parser.add_argument("--question", default=None, type=str)
     parser.add_argument("--answer", default=None, type=str)
     return parser.parse_args()

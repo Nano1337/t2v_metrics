@@ -130,8 +130,10 @@ python eval.py --model openai:ViT-L-14 # for CLIPScore
 python eval.py --model clip-flant5-xxl --question "Is the figure showing '{}'?" --answer "Yes"
 ```
 
-### Implementing your own scoring metric
+### Implementing your own scoring metric and models
 You can easily implement your own scoring metric. For example, if you have a VQA model that you believe is more effective, you can incorporate it into the directory at [t2v_metrics/models/vqascore_models](t2v_metrics/models/vqascore_models/). For guidance, please refer to our example implementations of [LLaVA-1.5](t2v_metrics/models/vqascore_models/llava_model.py) and [InstructBLIP](t2v_metrics/models/vqascore_models/instructblip_model.py) as starting points.
+
+To add a new model or further trained existing model architecture, please see `models/vqascore_models` and add it into the model dictionary as seen in each of the respective python model files. 
 
 ## Citation
 
@@ -148,3 +150,29 @@ If you find this repository useful for your research, please use the following (
 
 ## Acknowledgements
 This repository is inspired from the [Perceptual Metric (LPIPS)](https://github.com/richzhang/PerceptualSimilarity) repository by Richard Zhang for automatic evaluation of image quality.
+
+## TODO: 
+- may need to modify prompt to be compatible with what T5 model expects
+- Ensure the following settings are used: 
+```yaml
+        'tokenizer' : {
+            'path': 'google/flan-t5-xl',
+            'model_max_length': CONTEXT_LEN,
+        },
+        'model': {
+            'path': 'zhiqiulin/clip-flant5-xl',
+            'conversation': 't5_chat',
+            'image_aspect_ratio': 'pad',
+        },
+```
+- this means changing the following settings: conversation template in conversation_lib.conv_templates
+
+
+## TODO: 
+
+In t2v_metrics repo: 
+- in `models/vqascore_models/mm_utils.py`: 
+    - Find a way to pass in adaptor_path=None as default param and if it is not None then load the adaptor from that path.
+- Modify `seva/train_dpo_ours.py` to use CLIP-T5-XL model for DPO training. Need to include model factory like in t2v_metrics
+
+
