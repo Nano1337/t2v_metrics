@@ -83,6 +83,26 @@ LLAVA_MODELS = {
             'path': '/home/haoli/Documents/VQAscore-DPO/checkpoints/llava_loraft_dpo_hardneg',
         }
     },
+    'llava-phi-3-mini': {
+        'tokenizer' : {
+            'path': 'xtuner/llava-phi-3-mini',
+        },
+        'model': {
+            'path': 'xtuner/llava-phi-3-mini',
+            'conversation': 'chat',
+            'image_aspect_ratio': 'pad',
+        },
+    },
+    'bunny-v1.1-4b': {
+        'tokenizer' : {
+            'path': 'BAAI/Bunny-v1_1-4B',
+        },
+        'model': {
+            'path': 'BAAI/Bunny-v1_1-4B',
+            'conversation': 'chat',
+            'image_aspect_ratio': 'pad',
+        },
+    },
     # The following models are suboptimal, but are included for completeness.
     # 'llava-v1.5-13b-no-system': {
     #     'tokenizer' : {
@@ -247,7 +267,7 @@ class LLaVAModel(VQAScoreModel):
         # Formatting for LLaVA-1.5 desired input including system message and image tokens
         questions = [format_question(question, conversation_style=self.conversational_style) for question in questions]
         answers = [format_answer(answer, conversation_style=self.conversational_style) for answer in answers]
-        
+
         images = self.load_images(images)
         
         prompts = [qs + ans for qs, ans in zip(questions, answers)]

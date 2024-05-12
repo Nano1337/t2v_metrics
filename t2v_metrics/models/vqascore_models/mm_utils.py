@@ -83,11 +83,12 @@ def load_pretrained_model(model_cls,
 
     # load model, optionally load peft adaptor weights
     model = model_cls.from_pretrained(model_path, cache_dir=cache_dir)
-    
+
+
     if adaptor_path:
-        print("Loading LLAVA DPO adaptor at path: ", adaptor_path)
+        print("Loading DPO adaptor at path: ", adaptor_path)
         model.load_adapter(peft_model_id=adaptor_path)
-        
+
     if mmprojector_repo:
         from huggingface_hub import hf_hub_download
         model_base_name = mmprojector_repo.split('/')[-1]

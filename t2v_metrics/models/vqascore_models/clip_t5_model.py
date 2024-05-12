@@ -52,6 +52,20 @@ CLIP_T5_MODELS = {
             'image_aspect_ratio': 'pad',
         },
     },
+    'clip-flant5-xl-dpo': {
+        'tokenizer' : {
+            'path': 'google/flan-t5-xl',
+            'model_max_length': CONTEXT_LEN,
+        },
+        'model': {
+            'path': 'zhiqiulin/clip-flant5-xl',
+            'conversation': 't5_chat',
+            'image_aspect_ratio': 'pad',
+        },
+        'adaptor': {
+            'path': '/home/haoli/Documents/VQAscore-DPO/checkpoints/clip_flant5_xl_loraft_dpo_hardneg',
+        },
+    },
     # The following models are suboptimal, but are included for completeness.
     # 'clip-flant5-xxl-stage-1': {
     #     'tokenizer' : {
@@ -179,6 +193,8 @@ class CLIPT5Model(VQAScoreModel):
             if 'mmprojector_repo' in CLIP_T5_MODELS[self.model_name]['model'] else None
         mmprojector_name = CLIP_T5_MODELS[self.model_name]['model']['mmprojector_name'] \
             if 'mmprojector_name' in CLIP_T5_MODELS[self.model_name]['model'] else None
+        adaptor_path = CLIP_T5_MODELS[self.model_name]['adaptor']['path'] \
+            if 'adaptor' in CLIP_T5_MODELS[self.model_name] else None
         
         # default is 'pad'
         # stage-1 models use 'square'
@@ -200,7 +216,8 @@ class CLIPT5Model(VQAScoreModel):
             mmprojector_repo=mmprojector_repo,
             mmprojector_name=mmprojector_name,
             device=self.device,
-            cache_dir=self.cache_dir
+            cache_dir=self.cache_dir, 
+            adaptor_path=adaptor_path,
         )
 
     def load_images(self,
@@ -234,7 +251,7 @@ class CLIPT5Model(VQAScoreModel):
         # Formatting for CLIP-FlanT5 desired input including system message and image tokens
         questions = [format_question(question, conversation_style=self.conversational_style) for question in questions]
         answers = [format_answer(answer, conversation_style=self.conversational_style) for answer in answers]
-
+        
         images = self.load_images(images)
         
         input_ids = [t5_tokenizer_image_token(qs, self.tokenizer, return_tensors='pt') for qs in questions]

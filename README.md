@@ -151,28 +151,6 @@ If you find this repository useful for your research, please use the following (
 ## Acknowledgements
 This repository is inspired from the [Perceptual Metric (LPIPS)](https://github.com/richzhang/PerceptualSimilarity) repository by Richard Zhang for automatic evaluation of image quality.
 
-## TODO: 
-- may need to modify prompt to be compatible with what T5 model expects
-- Ensure the following settings are used: 
-```yaml
-        'tokenizer' : {
-            'path': 'google/flan-t5-xl',
-            'model_max_length': CONTEXT_LEN,
-        },
-        'model': {
-            'path': 'zhiqiulin/clip-flant5-xl',
-            'conversation': 't5_chat',
-            'image_aspect_ratio': 'pad',
-        },
-```
-- this means changing the following settings: conversation template in conversation_lib.conv_templates
+## Known Issues: 
 
-
-## TODO: 
-
-In t2v_metrics repo: 
-- in `models/vqascore_models/mm_utils.py`: 
-    - Find a way to pass in adaptor_path=None as default param and if it is not None then load the adaptor from that path.
-- Modify `seva/train_dpo_ours.py` to use CLIP-T5-XL model for DPO training. Need to include model factory like in t2v_metrics
-
-
+- When using the CLIP-FlanT5 adaptor directory, ensure that the corresponding `adapter_config.json` file's target_modules has NO "." before each of the elements and that it's NOT a nested list. 
