@@ -1,4 +1,4 @@
-from transformers import AutoProcessor, PaliGemmaForConditionalGeneration, GenerationConfig
+from transformers import AutoProcessor, PaliGemmaForConditionalGeneration
 from PIL import Image
 import requests
 import torch
@@ -25,7 +25,7 @@ prompt = "Does this figure show \"There are three doors\"? Please answer yes or 
 # preprocess
 labels = ["yes"]
 labels = processor(text=labels, images=image, return_tensors="pt").input_ids.to(model.device)
-labels = [label[-2] for label in labels]
+labels = [label[-2] for label in labels]    
 model_inputs = processor(text=prompt, images=image, return_tensors="pt").to(model.device)
 
 with torch.inference_mode():
