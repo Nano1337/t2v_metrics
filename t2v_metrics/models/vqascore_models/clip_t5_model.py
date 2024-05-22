@@ -63,7 +63,7 @@ CLIP_T5_MODELS = {
             'image_aspect_ratio': 'pad',
         },
         'adaptor': {
-            'path': '/home/haoli/Documents/VQAscore-DPO/checkpoints/clip_flant5_xl_loraft_dpo_hardneg',
+            'path': '/home/haoli/Documents/VQAscore-DPO/checkpoints/clip_flant5_xl_loraft_orpo_hardneg_lr6e-6_r64_a128_beta1.0',
         },
     },
     # The following models are suboptimal, but are included for completeness.
