@@ -13,4 +13,8 @@ opencv-python-headless
 openai
 einops
 pandas
+omegaconf
+iopath
+fairscale
+scikit-learn
 # salesforce-lavis

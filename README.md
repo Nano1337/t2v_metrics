@@ -23,6 +23,10 @@ pip install git+https://github.com/openai/CLIP.git
 pip install -e . # local pip install
 ```
 
+### Download Dataset: 
+1. First, `cd datasets/GenAI-Image-527` and then run `git clone https://huggingface.co/datasets/zhiqiulin/GenAI-Bench-527`
+2. Unzip 
+
 <!-- (not yet implemented) Or simply run `pip install t2v_metrics`.  -->
 Or you can install via `pip install t2v-metrics`.
 
